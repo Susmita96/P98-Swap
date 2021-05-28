@@ -3,14 +3,14 @@ def swap():
     print('\nWelcome to the file swapper app.')
     path1 = input('Enter the path of the first file :- ')
     file1 = open(path1, "r")
-    file1.read()
+    data1=file1.read()
 
     path2 = input('Enter the path of the second file :- ')
     file2 = open(path2, "r")
-    file2.read()
+    data2=file2.read()
 
-    data1 = (file1)
-    data2 = (file2)
+    //data1 = (file1)
+    //data2 = (file2)
 
     file1 = open(path1, 'w')
     file1.write(data2)
